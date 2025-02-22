@@ -58,7 +58,11 @@ dotnet run
 ## **Ekran Görüntüleri**  
 
 ![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp1.png)
+
 ![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp2.png)
+
 ![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp3.png)
+
 ![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp4.png)
+
 ![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp5.png)

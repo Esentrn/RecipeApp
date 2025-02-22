@@ -42,7 +42,7 @@ Aşağıdaki komutları terminal veya komut istemcisine girerek projeyi klonlay�
 
 ```sh
 git clone https://github.com/Esentrn/RecipeApp.git
-cd Recipe-Guide
+cd RecipeApp
 ```
 
 ### **2. Uygulamayı Çalıştırın**  

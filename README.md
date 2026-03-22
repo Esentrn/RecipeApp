@@ -1,53 +1,58 @@
-# **Tarif Rehberi Uygulaması**
+# Recipe Guide Application
 
-Tarif Rehberi, kullanıcıların yemek tariflerini saklayabileceği, mevcut malzemelerle hangi yemeklerin yapılabileceğini görebileceği bir masaüstü uygulamasıdır. Uygulama, **C# ve WPF** kullanılarak geliştirilmiş olup dinamik arama, filtreleme, tarif önerme ve maliyet hesaplama gibi işlevleri desteklemektedir.
-
----
-
-## **Proje Özellikleri**  
-
-**Dinamik Arama ve Filtreleme**  
-- Tarif adına veya içerdiği malzemeye göre arama yapabilirsiniz.  
-- Tarifleri hazırlama süresi, maliyet ve içerdiği malzeme sayısına göre filtreleyebilirsiniz.
-
-**Tarif Yönetimi**  
-- Yeni tarifler ekleyebilir, güncelleyebilir veya silebilirsiniz.  
-- Tariflere malzemeleri ve miktarlarını ekleyebilirsiniz.  
-- Tarifin tekrar eklenmesini önlemek için duplicate kontrolü yapılır.
-
-**Malzeme Yönetimi**  
-- Kullanıcı, tarif eklerken yeni malzemeler oluşturabilir veya kayıtlı malzemeleri seçebilir.  
-- Malzemelerin stok miktarı ve birim fiyatı veritabanında saklanır.  
-
-**Tarif Önerisi**  
-- Malzemelerinize göre hangi tarifleri yapabileceğinizi öğrenebilirsiniz.  
-- Eksik malzemesi olan tarifler kırmızı, tam malzemesi olanlar yeşil renkte gösterilir.  
-- Eksik malzemelerin toplam maliyetini hesaplayarak görüntüleyebilirsiniz.  
+Recipe Guide is a desktop application where users can store recipes and see which meals can be prepared using the ingredients they already have. The application was developed using **C# and WPF** and supports features such as dynamic search, filtering, recipe suggestions, and cost calculation.
 
 ---
 
-## **Kullanılan Teknolojiler**  
+## Project Features
 
-- **Programlama Dili:** C#  
-- **Geliştirme Ortamı:** Visual Studio
-- **Veritabanı:** Microsoft SQL Server  
+### Dynamic Search and Filtering
+
+- Search by recipe name or included ingredient
+- Filter recipes by preparation time, cost, and number of ingredients
+
+### Recipe Management
+
+- Add, update, or delete recipes
+- Add ingredients and their quantities to recipes
+- Duplicate checks are performed to prevent the same recipe from being added again
+
+### Ingredient Management
+
+- Users can create new ingredients while adding a recipe or select from existing ingredients
+- Ingredient stock quantity and unit price are stored in the database
+
+### Recipe Suggestions
+
+- See which recipes can be prepared based on available ingredients
+- Recipes with missing ingredients are shown in red, while recipes with all required ingredients are shown in green
+- View the total cost of missing ingredients
 
 ---
 
-## **Kurulum ve Çalıştırma**  
+## Technologies Used
 
-### **1. Projeyi Klonlayın**  
+- **Programming Language:** C#
+- **Framework:** WPF
+- **Development Environment:** Visual Studio
+- **Database:** Microsoft SQL Server
 
-Aşağıdaki komutları terminal veya komut istemcisine girerek projeyi klonlayın:  
+---
+
+## Installation and Setup
+
+### 1. Clone the Repository
+
+Run the following commands in your terminal or command prompt:
 
 ```sh
 git clone https://github.com/Esentrn/RecipeApp.git
 cd RecipeApp
 ```
 
-### **2. Uygulamayı Çalıştırın**  
+### 2. Run the Application
 
-Visual Studio'da `F5` tuşuna basarak veya terminalde aşağıdaki komutu çalıştırarak uygulamayı başlatabilirsiniz:  
+You can start the application by pressing `F5` in Visual Studio or by running the following command in the terminal:
 
 ```sh
 dotnet run
@@ -55,14 +60,14 @@ dotnet run
 
 ---
 
-## **Ekran Görüntüleri**  
+## Screenshots
 
-![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp1.png)
+![Image](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp1.png)
 
-![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp2.png)
+![Image](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp2.png)
 
-![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp3.png)
+![Image](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp3.png)
 
-![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp4.png)
+![Image](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp4.png)
 
-![Resim](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp5.png)
+![Image](https://github.com/Esentrn/RecipeApp/blob/d44e9d86c2c8f37f249e878853ca58f73f8847a2/RecipeApp5.png)
